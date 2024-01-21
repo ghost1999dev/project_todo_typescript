@@ -4,7 +4,7 @@ Este respositorio contiene el Frontend y Backend de una aplicacion ToDo List des
 ## Tecnologias Utilizadas
  ![Node.js](https://img.shields.io/badge/Node.js-10.x%20%7C%2012.x%20%7C%2014.x%20%7C%2016.x-43853D.svg) 
  ![Express.js](https://img.shields.io/badge/Express.js-4.x-000000.svg) 
- ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13.x%20%7C%2014.x-336791.svg) 
+ ![MongoDB](https://img.shields.io/badge/MongoDB-4.x-47A248.svg)
 
 ## Instalacion Backend
 1. Clona el repositorio: ` git clone []`
