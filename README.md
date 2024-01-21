@@ -36,7 +36,7 @@ Se utilizo MongoDB para representar diferentes tipos de datos. Ejemplo de la col
   "_id": "ObjectId",
   "nombre": "string",
   "descripcion": "string",
-  "completedo": "boolean",
+  "completado": "boolean",
   "fechaCreacion": "date"
 }
 ````
