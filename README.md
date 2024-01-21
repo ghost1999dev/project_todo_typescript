@@ -1,4 +1,4 @@
-##Frontend y Backend
+## Frontend y Backend
 Este respositorio contiene el Frontend y Backend de una aplicacion ToDo List desarrollado en Node.js y TypeScript de lado del Bckend y ReactJs de lado de Frontend
 
 ## Instalacion Backend
