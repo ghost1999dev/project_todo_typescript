@@ -25,13 +25,21 @@ export const create= async (req:Request,res:Response)=>{
 export const update =async(req:Request,res:Response)=>{
 
     try {
-        const {nombre}=req.body
-        const dataResponse=await TodoList.findOne({nombre:nombre})
+        const {nombre,descripcion,id}=req.body
 
-        res.status(200).send({
-            message:"Registro actualizado con exito",
-            data:dataResponse
-        })
+        let dataObjeto={
+            nombre,
+            descripcion,
+            id
+        }
+        console.log(dataObjeto);
+        
+        //const dataResponse=await TodoList.findOne({nombre:nombre})
+        const dataResponse =await TodoList.findOneAndUpdate({_id:id},dataObjeto,{new:true});
+        
+        res.status(200).send(
+            dataResponse
+        )
     } catch (error) {
         res.status(501).send({
             message:"Ocurrio un error al editar los datos",
@@ -42,7 +50,9 @@ export const update =async(req:Request,res:Response)=>{
 
 export const deleteRegister=async(req:Request,res:Response)=>{
     try {
-        const {nombre}=req.body;
+        const {nombre}=req.params;
+        console.log(nombre);
+        
 
         const deletedTodoList=await TodoList.findOneAndDelete({nombre:nombre})
         if (!deletedTodoList) {
@@ -68,10 +78,9 @@ export const deleteRegister=async(req:Request,res:Response)=>{
 export const getAllRegister=async(req:Request,res:Response)=>{
     try {
         const getData=await TodoList.find()
-        res.status(200).send({
-            message:"Registro encontrado con exito",
-            data:getData
-        })
+        res.status(200).send(
+            getData
+        )
     } catch (error) {
         res.status(500).send({
             message:"Ha ocurrido un error al traer los datos",
