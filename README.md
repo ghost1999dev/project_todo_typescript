@@ -12,6 +12,9 @@ Este respositorio contiene el Frontend y Backend de una aplicacion ToDo List des
  ![Express.js](https://img.shields.io/badge/Express.js-4.x-000000.svg) 
  ![MongoDB](https://img.shields.io/badge/MongoDB-4.x-47A248.svg)
 
+ ## Ruta especifica de la documentacion de los endpoints
+ http://localhost:4201/docs/
+
 ## Instalacion Backend
 1. Clona el repositorio: ` git clone []`
 2. Se creo la rama `main` para simular produccion en donde esta el codigo semilla
