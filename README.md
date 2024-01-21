@@ -34,10 +34,10 @@ Se utilizo MongoDB para representar diferentes tipos de datos. Ejemplo de la col
 ```json
 {
   "_id": "ObjectId",
-  "title": "string",
-  "description": "string",
-  "completed": "boolean",
-  "createdAt": "date"
+  "nombre": "string",
+  "descripcion": "string",
+  "completedo": "boolean",
+  "fechaCreacion": "date"
 }
 ````
 
