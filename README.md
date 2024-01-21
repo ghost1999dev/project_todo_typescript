@@ -3,7 +3,7 @@ Este respositorio contiene el Frontend y Backend de una aplicacion ToDo List des
 
 <div style="display: flex; justify-content: space-around">
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="400" height="400">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="400" height="400">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="300" height="300">
 </div>
 
 
