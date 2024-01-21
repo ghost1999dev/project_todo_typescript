@@ -16,7 +16,7 @@ Este respositorio contiene el Frontend y Backend de una aplicacion ToDo List des
  http://localhost:4201/docs/
 
 ## Instalacion Backend
-1. Clona el repositorio: ` git clone []`
+1. Clona el repositorio: ` git clone [https://github.com/ghost1999dev/project_todo_typescript.git]`
 2. Se creo la rama `main` para simular produccion en donde esta el codigo semilla
 3. Se creo la rama `develop` para simular el modo desarrollo
 4. Si es necesario hacer pull en la rama `main`
@@ -24,7 +24,7 @@ Este respositorio contiene el Frontend y Backend de una aplicacion ToDo List des
 6. Instala las dependencias: `npm install`
 
 ## Instalacion Frontend
-1. Clona el repositorio: `git clone []`
+1. Clona el repositorio: `git clone [https://github.com/ghost1999dev/project_todo_typescript.git]`
 2. Ingresa al directorio del frontend: `cd frontend`
 3. Instala las dependencias: `npm install`
 
