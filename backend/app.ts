@@ -2,7 +2,7 @@
 
 import { json } from "body-parser";
 import express from "express";
-
+import cors from 'cors'
 import router from "./routes/special.routes";
 import './database'
 
@@ -13,7 +13,7 @@ let mongoose=require('mongoose')
 let port =process.env.PORT || 4201;
 app.use(express.urlencoded({extended:false}))
 app.use(express.json());
-
+app.use(cors());
 //RUTAS
 app.use(router)
 

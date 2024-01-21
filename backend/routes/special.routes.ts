@@ -11,6 +11,6 @@ const router=Router()
 router.post('/save',create)
 router.put('/update',update)
 router.get('/getAllRegister',getAllRegister)
-router.delete('/delete',deleteRegister)
+router.delete('/delete/:nombre',deleteRegister)
 
 export default router;
