@@ -28,6 +28,19 @@ Este respositorio contiene el Frontend y Backend de una aplicacion ToDo List des
 2. Ingresa al directorio del frontend: `cd frontend`
 3. Instala las dependencias: `npm install`
 
+## Base de datos
+Se utilizo MongoDB para representar diferentes tipos de datos. Ejemplo de la coleccion de datos que se utilizo
+
+```json
+{
+  "_id": "ObjectId",
+  "title": "string",
+  "description": "string",
+  "completed": "boolean",
+  "createdAt": "date"
+}
+````
+
 ## Estructura del proyecto del Backend
 
 - `/config`: Contiene la configuracion de la base de datos MongoDB
