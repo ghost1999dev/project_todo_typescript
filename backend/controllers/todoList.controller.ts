@@ -9,8 +9,8 @@ export const create= async (req:Request,res:Response)=>{
        await todoListData.save()
 
        res.status(200).send({
-        message:"Se guardo correctamente la nota",
-
+            message:"Se guardo correctamente la nota",
+            data:todoListData
        })
     } catch (error) {
 
