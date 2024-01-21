@@ -1,8 +1,11 @@
 ## Frontend y Backend TodoList
 Este respositorio contiene el Frontend y Backend de una aplicacion ToDo List desarrollado en Node.js y TypeScript de lado del Bckend y ReactJs de lado de Frontend
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="400" height="400">
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="400" height="400">
+<div style="display: flex; justify-content: space-around">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="400" height="400">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="400" height="400">
+</div>
+
 
 ## Tecnologias Utilizadas
  ![Node.js](https://img.shields.io/badge/Node.js-10.x%20%7C%2012.x%20%7C%2014.x%20%7C%2016.x-43853D.svg) 
