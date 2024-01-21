@@ -14,8 +14,11 @@ Este respositorio contiene el Frontend y Backend de una aplicacion ToDo List des
 
 ## Instalacion Backend
 1. Clona el repositorio: ` git clone []`
-2. Ingresa al directorio del backend: `cd backend`
-3. Instala las dependencias: `npm install`
+2. Se creo la rama `main` para simular produccion en donde esta el codigo semilla
+3. Se creo la rama `develop` para simular el modo desarrollo
+4. Si es necesario hacer pull en la rama `main`
+5. Ingresa al directorio del backend: `cd backend`
+6. Instala las dependencias: `npm install`
 
 ## Instalacion Frontend
 1. Clona el repositorio: `git clone []`
