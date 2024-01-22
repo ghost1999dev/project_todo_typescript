@@ -22,11 +22,13 @@ Este respositorio contiene el Frontend y Backend de una aplicacion ToDo List des
 4. Si es necesario hacer pull en la rama `main`
 5. Ingresa al directorio del backend: `cd backend`
 6. Instala las dependencias: `npm install`
+7. Correr el proyecto: `npm run dev`
 
 ## Instalacion Frontend
 1. Clona el repositorio: `git clone [https://github.com/ghost1999dev/project_todo_typescript.git]`
 2. Ingresa al directorio del frontend: `cd frontend`
 3. Instala las dependencias: `npm install`
+4. Correr el proyecto: `npm run dev`
 
 ## Base de datos
 Se utilizo MongoDB para representar diferentes tipos de datos. Ejemplo de la coleccion de datos que se utilizo
